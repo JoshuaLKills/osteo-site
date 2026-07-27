@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Referral Program — OsTeO</title>
+<meta name="description" content="Refer OsTeO to another home-gym setup and both of you get credit toward your next part.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bone:#EDE7D8; --bone-dim:#E1DAC6; --bone-line:#CFC6AC;
+    --marrow:#15130F; --marrow-soft:#26221A; --fracture:#FF5A1F;
+    --fracture-dim:#c8481b; --stone:#8C8270;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--bone);color:var(--marrow);font-family:'IBM Plex Sans',sans-serif;line-height:1.55;}
+  a{color:inherit;}
+  .mono{font-family:'IBM Plex Mono',monospace;}
+  h1,h2,h3{font-family:'Space Grotesk',sans-serif;font-weight:700;letter-spacing:-0.01em;}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+  header{padding:22px 0;border-bottom:1px solid var(--bone-line);}
+  header .wrap{max-width:960px;display:flex;justify-content:space-between;align-items:center;}
+  .back{font-size:13px;color:var(--marrow-soft);text-decoration:none;}
+  .back:hover{color:var(--fracture);}
+  .brand{font-weight:700;font-family:'Space Grotesk',sans-serif;}
+  main{padding:70px 0 100px;text-align:center;}
+  .eyebrow{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:var(--fracture-dim);margin-bottom:18px;}
+  h1{font-size:clamp(30px,5vw,46px);margin-bottom:16px;}
+  .lede{font-size:17px;color:var(--marrow-soft);margin-bottom:50px;max-width:520px;margin-left:auto;margin-right:auto;}
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:56px;text-align:left;}
+  @media (max-width:640px){.steps{grid-template-columns:1fr;}}
+  .step{background:var(--bone-dim);border:1px solid var(--bone-line);border-radius:6px;padding:26px;}
+  .step .num{font-family:'Space Grotesk',sans-serif;font-weight:700;color:var(--fracture);font-size:22px;margin-bottom:10px;}
+  .step p{font-size:14px;color:var(--marrow-soft);}
+  .link-box{
+    background:var(--marrow);color:var(--bone);border-radius:6px;padding:36px;margin-bottom:20px;
+  }
+  .link-box label{display:block;font-family:'IBM Plex Mono',monospace;font-size:11px;color:#9a927c;text-transform:uppercase;margin-bottom:12px;}
+  .link-row{display:flex;gap:10px;max-width:440px;margin:0 auto;}
+  .link-row input{flex:1;padding:12px 14px;border-radius:2px;border:1px solid #3a352a;background:#1E1B14;color:var(--bone);font-family:'IBM Plex Mono',monospace;font-size:13px;}
+  .btn{background:var(--fracture);color:#fff;border:none;padding:0 20px;border-radius:2px;font-family:'IBM Plex Mono',monospace;font-size:13px;cursor:pointer;}
+  .copy-msg{font-size:12px;color:#9a927c;margin-top:10px;min-height:16px;}
+  .fine-print{font-size:12px;color:var(--stone);max-width:480px;margin:0 auto;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a href="index.html" class="back mono">&larr; Back to OsTeO</a>
+    <span class="brand">OsTeO</span>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="eyebrow">Referral program</div>
+    <h1>Send someone a stronger garage gym. Get $20.</h1>
+    <p class="lede">Your friend gets $20 off their first order over $50. You get $20 in credit once it ships. No limit on how many people you refer.</p>
+
+    <div class="steps">
+      <div class="step"><div class="num">01</div><p>Share your link below with anyone building a home gym.</p></div>
+      <div class="step"><div class="num">02</div><p>They order a part and use the discount automatically.</p></div>
+      <div class="step"><div class="num">03</div><p>Once their order ships, your credit lands in your account.</p></div>
+    </div>
+
+    <div class="link-box">
+      <label>Your referral link</label>
+      <div class="link-row">
+        <input type="text" id="refLink" value="osteo.gym/r/your-code" readonly>
+        <button type="button" class="btn" id="copyBtn">Copy</button>
+      </div>
+      <div class="copy-msg" id="copyMsg"></div>
+    </div>
+
+    <p class="fine-print">This page is a working prototype — the referral code and credit ledger need a real backend (customer accounts, a discount-code system) before this can track and pay out actual referrals. The share/copy flow below works as shown.</p>
+  </div>
+</main>
+
+<script>
+document.getElementById('copyBtn').addEventListener('click', async ()=>{
+  const input = document.getElementById('refLink');
+  const msg = document.getElementById('copyMsg');
+  try{
+    await navigator.clipboard.writeText(input.value);
+    msg.textContent = 'Copied to clipboard.';
+  }catch(e){
+    input.select();
+    msg.textContent = 'Select and copy manually — clipboard access was blocked.';
+  }
+  setTimeout(()=> msg.textContent = '', 3000);
+});
+</script>
+
+</body>
+</html>

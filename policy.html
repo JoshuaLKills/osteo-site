@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3D-Printed vs Cast Iron Gym Equipment — OsTeO</title>
+<meta name="description" content="An honest breakdown of where topology-optimized 3D-printed gym equipment beats cast iron, and where it doesn't.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bone:#EDE7D8; --bone-dim:#E1DAC6; --bone-line:#CFC6AC;
+    --marrow:#15130F; --marrow-soft:#26221A; --fracture:#FF5A1F;
+    --fracture-dim:#c8481b; --stone:#8C8270;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--bone);color:var(--marrow);font-family:'IBM Plex Sans',sans-serif;line-height:1.55;}
+  a{color:inherit;}
+  .mono{font-family:'IBM Plex Mono',monospace;}
+  h1,h2,h3{font-family:'Space Grotesk',sans-serif;font-weight:700;letter-spacing:-0.01em;}
+  .wrap{max-width:960px;margin:0 auto;padding:0 24px;}
+  header{padding:22px 0;border-bottom:1px solid var(--bone-line);}
+  header .wrap{display:flex;justify-content:space-between;align-items:center;}
+  .back{font-size:13px;color:var(--marrow-soft);text-decoration:none;}
+  .back:hover{color:var(--fracture);}
+  .brand{font-weight:700;font-family:'Space Grotesk',sans-serif;}
+  main{padding:70px 0 100px;}
+  .eyebrow{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:var(--fracture-dim);margin-bottom:18px;}
+  h1{font-size:clamp(32px,5vw,52px);max-width:760px;margin-bottom:20px;}
+  .lede{font-size:18px;color:var(--marrow-soft);max-width:640px;margin-bottom:50px;}
+  table{width:100%;border-collapse:collapse;margin-bottom:60px;}
+  th,td{text-align:left;padding:16px 14px;border-bottom:1px solid var(--bone-line);vertical-align:top;}
+  th{font-family:'IBM Plex Mono',monospace;font-size:11px;text-transform:uppercase;color:var(--stone);letter-spacing:0.06em;}
+  td{font-size:15px;}
+  tr td:first-child{font-weight:600;width:22%;}
+  .win{color:var(--fracture-dim);font-weight:600;}
+  section.block{margin-bottom:56px;}
+  section.block h2{font-size:26px;margin-bottom:14px;}
+  section.block p{color:var(--marrow-soft);font-size:16px;margin-bottom:14px;max-width:700px;}
+  .cta-band{background:var(--marrow);color:var(--bone);border-radius:6px;padding:40px;text-align:center;}
+  .cta-band h2{color:var(--bone);margin-bottom:12px;}
+  .cta-band p{color:#B9B2A0;margin-bottom:24px;}
+  .btn{display:inline-flex;background:var(--fracture);color:#fff;padding:13px 26px;border-radius:2px;text-decoration:none;font-family:'IBM Plex Mono',monospace;font-size:13px;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a href="index.html" class="back mono">&larr; Back to OsTeO</a>
+    <span class="brand">OsTeO</span>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="eyebrow">Honest comparison</div>
+    <h1>3D-printed vs cast iron: where each one actually wins.</h1>
+    <p class="lede">We sell the printed stuff, so take this with the grain of salt that implies — but we'd rather you buy the right equipment than buy from us specifically. Here's where topology-optimized printed parts genuinely beat cast iron, and where cast iron still wins outright.</p>
+
+    <table>
+      <tr><th>Factor</th><th>3D-Printed (OsTeO)</th><th>Cast Iron</th></tr>
+      <tr>
+        <td>Weight-to-strength</td>
+        <td><span class="win">Wins.</span> Lattice infill puts material only where load paths need it. A printed J-cup insert weighs a third of an equivalent solid part at the same rated load.</td>
+        <td>Solid and heavy by default — the strength is real but so is the mass you didn't need.</td>
+      </tr>
+      <tr>
+        <td>Custom fit</td>
+        <td><span class="win">Wins.</span> Made-to-order bore diameters, rack widths, and sleeve fits. No adapters.</td>
+        <td>Fixed sizes. You adapt to the part, not the other way around.</td>
+      </tr>
+      <tr>
+        <td>Impact resistance at extreme force</td>
+        <td>Good, but has a failure ceiling — a CF-nylon shell can crack under a hard enough single impact.</td>
+        <td><span class="win">Wins.</span> Cast iron deforms before it shatters, and shrugs off drops that would crack a printed shell.</td>
+      </tr>
+      <tr>
+        <td>Repairability</td>
+        <td><span class="win">Wins.</span> Crack a part, print another one from the same file. No shipping wait on a re-cast.</td>
+        <td>A cracked casting is scrap. You're buying a full replacement either way.</td>
+      </tr>
+      <tr>
+        <td>Cost at scale</td>
+        <td>Higher per-unit cost for small batches; each part is individually printed.</td>
+        <td><span class="win">Wins.</span> Mass casting is cheaper once tooling is paid off, especially for simple shapes like plates.</td>
+      </tr>
+      <tr>
+        <td>Lead time on a new design</td>
+        <td><span class="win">Wins.</span> A new design goes from CAD to a tested part in days, not months.</td>
+        <td>New molds are expensive and slow. Iteration is rare once tooling exists.</td>
+      </tr>
+    </table>
+
+    <section class="block">
+      <h2>Where we'd actually tell you to buy cast iron</h2>
+      <p>Full-size Olympic plates and anything that gets dropped from height, repeatedly, at your max load. Cast iron's failure mode there — bending or chipping — is safer and cheaper than ours. We don't make plates for that reason.</p>
+    </section>
+
+    <section class="block">
+      <h2>Where printed actually makes sense</h2>
+      <p>Accessories, connectors, handles, and anything that benefits from an exact fit to equipment you already own: J-cup liners, collar sets, grip sleeves, band anchors. This is the category we build for, and it's the category where the lattice-infill logic pays off without the failure-mode risk of a full barbell plate.</p>
+    </section>
+
+    <div class="cta-band">
+      <h2>See the actual parts</h2>
+      <p>Kettlebells, handles, rack accessories — all load-tested past their rating before they ship.</p>
+      <a href="index.html#products" class="btn">View Equipment</a>
+    </div>
+  </div>
+</main>
+
+</body>
+</html>

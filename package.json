@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buying Guide — OsTeO</title>
+<meta name="description" content="Which OsTeO part fits your setup — a straight guide to picking between the current lineup.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bone:#EDE7D8; --bone-dim:#E1DAC6; --bone-line:#CFC6AC;
+    --marrow:#15130F; --marrow-soft:#26221A; --fracture:#FF5A1F;
+    --fracture-dim:#c8481b; --stone:#8C8270;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--bone);color:var(--marrow);font-family:'IBM Plex Sans',sans-serif;line-height:1.55;}
+  a{color:inherit;}
+  .mono{font-family:'IBM Plex Mono',monospace;}
+  h1,h2,h3{font-family:'Space Grotesk',sans-serif;font-weight:700;letter-spacing:-0.01em;}
+  .wrap{max-width:860px;margin:0 auto;padding:0 24px;}
+  header{padding:22px 0;border-bottom:1px solid var(--bone-line);}
+  header .wrap{max-width:960px;display:flex;justify-content:space-between;align-items:center;}
+  .back{font-size:13px;color:var(--marrow-soft);text-decoration:none;}
+  .back:hover{color:var(--fracture);}
+  .brand{font-weight:700;font-family:'Space Grotesk',sans-serif;}
+  main{padding:70px 0 100px;}
+  .eyebrow{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:var(--fracture-dim);margin-bottom:18px;}
+  h1{font-size:clamp(32px,5vw,48px);margin-bottom:16px;max-width:700px;}
+  .lede{font-size:17px;color:var(--marrow-soft);margin-bottom:56px;max-width:600px;}
+  .q-card{background:var(--bone-dim);border:1px solid var(--bone-line);border-radius:6px;padding:28px;margin-bottom:20px;}
+  .q-card .q{font-family:'IBM Plex Mono',monospace;font-size:12px;text-transform:uppercase;letter-spacing:0.06em;color:var(--fracture-dim);margin-bottom:10px;}
+  .q-card h3{font-size:20px;margin-bottom:10px;}
+  .q-card p{color:var(--marrow-soft);font-size:15px;margin-bottom:10px;}
+  .q-card .answer{font-weight:600;}
+  section.block{margin:56px 0;}
+  section.block h2{font-size:24px;margin-bottom:16px;}
+  table{width:100%;border-collapse:collapse;margin-bottom:20px;}
+  th,td{text-align:left;padding:14px 12px;border-bottom:1px solid var(--bone-line);vertical-align:top;font-size:14.5px;}
+  th{font-family:'IBM Plex Mono',monospace;font-size:11px;text-transform:uppercase;color:var(--stone);letter-spacing:0.06em;}
+  tr td:first-child{font-weight:600;width:24%;}
+  .cta{background:var(--marrow);color:var(--bone);border-radius:6px;padding:36px;margin-top:20px;text-align:center;}
+  .cta h3{color:var(--bone);font-size:22px;margin-bottom:10px;}
+  .cta p{color:#c9c2ac;margin-bottom:20px;}
+  .btn{display:inline-block;background:var(--fracture);color:#fff;padding:12px 24px;border-radius:2px;font-family:'IBM Plex Mono',monospace;font-size:13px;text-decoration:none;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a href="index.html" class="back mono">&larr; Back to OsTeO</a>
+    <span class="brand">OsTeO</span>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="eyebrow">Buying guide</div>
+    <h1>Which part actually fits your setup.</h1>
+    <p class="lede">Six products, one question each. Answer these before you check out, and skip the ones that don't apply to you.</p>
+
+    <div class="q-card">
+      <div class="q mono">If you're replacing a cracked or worn grip</div>
+      <h3>Cortex Dumbbell Handle or Marrow Grip Kettlebell Shell</h3>
+      <p>Handle if your dumbbell's factory grip is the failure point and the bar itself is fine. Shell if it's a full kettlebell you're rebuilding — it prints as a complete shell over the gyroid core, not just a sleeve.</p>
+      <p class="answer">Measure the worn part's diameter first. Both are made-to-order to your exact fit — see <a href="index.html#configurator" style="color:var(--fracture-dim);">Build Yours</a> if you're unsure of the number.</p>
+    </div>
+
+    <div class="q-card">
+      <div class="q mono">If your rack is showing weld stress at the J-hooks</div>
+      <h3>Trabecula J-Cup Insert</h3>
+      <p>This is a drop-in liner, not a structural replacement — it absorbs bar impact so it stops transmitting into the rack weld. It ships from stock because it's sized to standard rack tubing, not custom-printed per order.</p>
+    </div>
+
+    <div class="q-card">
+      <div class="q mono">If your barbell collars have started slipping</div>
+      <h3>Sternum Collar Set</h3>
+      <p>Made to order because collar fit is unforgiving — a sleeve diameter off by even a millimeter either binds or slips. Have your bar's sleeve diameter ready when you order.</p>
+    </div>
+
+    <div class="q-card">
+      <div class="q mono">If you're building a resistance band station</div>
+      <h3>Radius Anchor Plate</h3>
+      <p>Works floor-mounted or door-frame mounted. Ships from stock since it isn't fit-dependent the way the collar or handle parts are.</p>
+    </div>
+
+    <div class="q-card">
+      <div class="q mono">If you're managing recovery, not lifting</div>
+      <h3>Periosteum Massage Roller</h3>
+      <p>The only part in the lineup with dual-density infill — firmer at the ends, softer through the middle. Ships from stock in one standard size.</p>
+    </div>
+
+    <section class="block">
+      <h2>Stock vs. made-to-order, at a glance</h2>
+      <table>
+        <tr><th>Type</th><th>What it means</th><th>Return window</th></tr>
+        <tr><td>Ships from stock</td><td>Printed in standard sizes ahead of demand. Fits most setups without measuring.</td><td>30 days, even if opened</td></tr>
+        <tr><td>Made to order</td><td>Printed to the bore, width, or sleeve diameter you provide at checkout.</td><td>Final sale once printing starts</td></tr>
+      </table>
+    </section>
+
+    <div class="cta">
+      <h3>Still not sure which one you need?</h3>
+      <p>See the full rated capacity and material breakdown for every part side by side.</p>
+      <a href="index.html#products" class="btn">View Equipment</a>
+    </div>
+  </div>
+</main>
+
+</body>
+</html>
