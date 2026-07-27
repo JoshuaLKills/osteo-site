@@ -1,109 +1,92 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Trabecula J-Cup Insert — OsTeO</title>
-<meta name="description" content="Drop-in liner for power rack J-hooks. Absorbs bar impact instead of transmitting it into the rack weld.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --bone:#EDE7D8; --bone-dim:#E1DAC6; --bone-line:#CFC6AC;
-    --marrow:#15130F; --marrow-soft:#26221A; --fracture:#FF5A1F;
-    --fracture-dim:#c8481b; --stone:#8C8270;
-  }
-  *{margin:0;padding:0;box-sizing:border-box;}
-  body{background:var(--bone);color:var(--marrow);font-family:'IBM Plex Sans',sans-serif;line-height:1.55;}
-  a{color:inherit;}
-  .mono{font-family:'IBM Plex Mono',monospace;}
-  h1,h2,h3{font-family:'Space Grotesk',sans-serif;font-weight:700;letter-spacing:-0.01em;}
-  .wrap{max-width:820px;margin:0 auto;padding:0 24px;}
-  header{padding:22px 0;border-bottom:1px solid var(--bone-line);}
-  header .wrap{max-width:960px;display:flex;justify-content:space-between;align-items:center;}
-  .back{font-size:13px;color:var(--marrow-soft);text-decoration:none;}
-  .back:hover{color:var(--fracture);}
-  .brand{font-weight:700;font-family:'Space Grotesk',sans-serif;}
-  main{padding:60px 0 100px;}
-  .idx{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:var(--fracture-dim);margin-bottom:18px;}
-  h1{font-size:clamp(30px,5vw,44px);margin-bottom:14px;max-width:700px;}
-  .rating{display:flex;align-items:center;gap:10px;margin-bottom:22px;}
-  .stars{color:var(--fracture);font-size:16px;}
-  .rating .count{font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:var(--stone);}
-  .lede{font-size:17px;color:var(--marrow-soft);margin-bottom:36px;max-width:640px;}
-  .spec-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--bone-line);border:1px solid var(--bone-line);border-radius:6px;overflow:hidden;margin-bottom:40px;}
-  @media (max-width:640px){.spec-grid{grid-template-columns:repeat(2,1fr);}}
-  .spec-grid div{background:var(--bone-dim);padding:16px 18px;}
-  .spec-grid span{display:block;font-family:'IBM Plex Mono',monospace;font-size:10.5px;text-transform:uppercase;color:var(--stone);letter-spacing:0.06em;margin-bottom:6px;}
-  .spec-grid strong{font-size:14.5px;}
-  section.block{margin-bottom:44px;}
-  section.block h2{font-size:21px;margin-bottom:12px;}
-  section.block p{color:var(--marrow-soft);font-size:15.5px;max-width:680px;}
-  .reviews{margin-bottom:44px;}
-  .review{border-top:1px solid var(--bone-line);padding:18px 0;}
-  .review:last-child{border-bottom:1px solid var(--bone-line);}
-  .review-head{display:flex;gap:12px;align-items:center;margin-bottom:8px;}
-  .review-head .stars{font-size:13px;}
-  .review-head .name{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--stone);}
-  .review p{font-size:14.5px;color:var(--marrow-soft);}
-  .cta{background:var(--marrow);color:var(--bone);border-radius:6px;padding:32px;display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between;}
-  .cta .price{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:26px;}
-  .cta-actions{display:flex;gap:10px;flex-wrap:wrap;}
-  .btn{display:inline-flex;align-items:center;gap:8px;background:var(--fracture);color:#fff;padding:12px 22px;border-radius:2px;font-family:'IBM Plex Mono',monospace;font-size:13px;text-decoration:none;border:1px solid var(--fracture);}
-  .btn-outline{background:transparent;color:var(--bone);border:1px solid #3a352a;}
-</style>
-</head>
-<body>
+%PDF-1.4
+%���� ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R /F5 6 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /ZapfDingbats /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+7 0 obj
+<<
+/Contents 11 0 R /MediaBox [ 0 0 612 792 ] /Parent 10 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
 
-<header>
-  <div class="wrap">
-    <a href="../index.html" class="back mono">&larr; Back to OsTeO</a>
-    <span class="brand">OsTeO</span>
-  </div>
-</header>
+>> 
+  /Type /Page
+>>
+endobj
+8 0 obj
+<<
+/PageMode /UseNone /Pages 10 0 R /Type /Catalog
+>>
+endobj
+9 0 obj
+<<
+/Author (\(anonymous\)) /CreationDate (D:20260727014413+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260727014413+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+>>
+endobj
+10 0 obj
+<<
+/Count 1 /Kids [ 7 0 R ] /Type /Pages
+>>
+endobj
+11 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1656
+>>
+stream
+Gb!kt968iG&AII3m%KuMR><3*pZ.R7cD,CE4>bM[/eA2CM"sjQb)H2_qZ.sRb)$`Yntf93//uNJ?hefZKc.GrB(e#4Ln;iTlkq%fBtbeR4$LnBk^5Si1h"(.aIP$D$)<;2-hO,MmpXsjA*sLA3H!m_%)7BRk!%>]#un4DPo6?B!>CujB2*>T@!\g8o(%!nJ#)lBA*tq_^LkoRp*Ph+"ATs*I>S)@+nXs9M&D5gJ=J"pr<VhFf#r9`-`'g?O<96QaF'"::@F6(&4Xcmrn-t4:Cci'B/]$.K(cdC4\A0e^R;WkcKNgSI"$)7jS\#sqr*>06$.=o\3D7/]>cn@-TZZ-lFL`pH*'!s8iBBr(G\M=)*[NI#`en>*FXd<FM7`^Y5'$I#cos\T?YMa?Bq=GIB'G]9nIcl/$4#<V3[?H[<-(75<%>#/h%Iq17,@IX4:6DD:c.oV:O9GOk,fK:sc3g']I_;UiM9+g-D*)Tc6mP<B<XF9g$I?=V(TPhDj6!O#@LG`8u>:+^BXGL?%rPi34J#J9J$PdH\Qdl(nJ@M-WBdpCbcg5"TD5r%U+fas_<c,rT\jQfUg[S;qA2"r/O8pSa+nnKQS=.LV"\;EN=uo=f4)K1oa(E:L>LA?Eer3Q[K'8]!G(S-1>@18q]!:LhnWebTb./l,,L(g9WT^KOQa9AMblZ?PqZWRb3n=seSl\\m@*^/`sd,h#Dfi]"7p)er=q:Wo[Q>BT/+=ae',llH$,/s][@V*6K)]qZZ3cR$llU)84(!ZgQtEm**sg[rFk)A-ZZ,u-pU5$:?co^Nm%kSW;!g0&FEd*0qbj.8,`%JSec3t`Ni*)VAf)XUoiC]r^A"05j_a5[W1\daaB(Ul-,?eh%.N-Cr!n*a=&JV80dg^+Ci6/_,b54h?T_:Jkgkf3uc)#+_Vc$R0`/RQ3lFfXX`9oH-rS+#sVQc+o.A"IhqA=iTP;[_$p^78B>0jj\H@)pm-m(pT>Uo(7j!r4]UfT>Ts.[Sd!BF:.Qq.V@J$5>$[n^'BIa\WfW>1I.kBT74Jjp0ZNAIFX`L6rG+;Zk"]l59Yn\aVUQ:c^1&D<%JD2G'((7G?faN!QZAcO@?t)H;f@&l6-eU4n<8A2U>qK@ad:<s;iFB$72+ocku8i/,n3An%BFf@jR^'/LUZK[p[5XLaKPju&DF+"M4=,n.hLE[iE-DKSkmR!7JFe9<V8O/JF6,K@Z@fZ$n==ZYgmqPuuEo4q4HJ#m46RJs$3IGd5^rc'VShIGfhm2'XKs7_2]ST,_LGSU'FMstF4dOS73"6Sh-/DY1LA$hmcP@?mK!pe@[c5BI6eNbH<2<"t^fSU[a#2s$B3SG7QcDjna$tZGDhZ_!%Iuc:0kKr=U=B5%o!Cc*GTnl2D[un:rLa>PVA1rHu``e[4<Q]\Z$ets671O6-##lI$/c,*oF:2bq5cUgm]$OV";,al+@:9nH_OtVu7a\;W`S>[6kt6Ik+KJPMX0r!Ki+RFN-L0\55f`iln1FAF#k,M-%=h;nV#E'sG2hqe16_1Z,6$4Of`1-0"8Cj;;DhjI=Wtp>Y,pGbGJ,L8O/`WnfZ#(]I6gqjc@Y#LMj^r<f1NJ2PP6#aC.bsX%;A/&="E!@(V*.,KB`+BGYV/5)d,0j0e.$6YZ#M<eBR@oTZOt.qF\!~>endstream
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000061 00000 n 
+0000000132 00000 n 
+0000000239 00000 n 
+0000000351 00000 n 
+0000000461 00000 n 
+0000000566 00000 n 
+0000000649 00000 n 
+0000000844 00000 n 
+0000000913 00000 n 
+0000001193 00000 n 
+0000001253 00000 n 
+trailer
+<<
+/ID 
+[<d913d8226621f582ccd7f859f293efa9><d913d8226621f582ccd7f859f293efa9>]
+% ReportLab generated PDF document -- digest (opensource)
 
-<main>
-  <div class="wrap">
-    <div class="idx">P-03 / RACK</div>
-    <h1>Trabecula J-Cup Insert</h1>
-    <div class="rating">
-      <span class="stars">★★★★★</span>
-      <span class="count mono">4.6 out of 5 (29 reviews)</span>
-    </div>
-    <p class="lede">Drop-in liner for power rack J-hooks. Absorbs bar impact instead of transmitting it into the rack weld.</p>
-
-    <div class="spec-grid">
-      <div><span>Infill</span><strong>30%</strong></div>
-      <div><span>Material</span><strong>Nylon-CF</strong></div>
-      <div><span>Rated</span><strong>250kg static</strong></div>
-      <div><span>Weight</span><strong>95g each</strong></div>
-      <div><span>Print time</span><strong>2 hr</strong></div>
-      <div><span>Dimensions</span><strong>Fits 2x2in and 3x3in uprights</strong></div>
-    </div>
-
-    <section class="block">
-      <h2>How it's built</h2>
-      <p>The lattice under the bar-contact surface compresses slightly on rack-in, which is what kills the metal-on-metal clang. Replaceable long before your J-hooks would ever need it.</p>
-    </section>
-
-    <div class="reviews">
-      <h2 style="font-size:21px;margin-bottom:4px;">What buyers say</h2>
-      <div class="review"><div class="review-head"><span class="stars">★★★★★</span><span class="name mono">K. Wallen</span></div><p>Killed the metal clang completely. Wish I&#x27;d bought these a year ago.</p></div>
-      <div class="review"><div class="review-head"><span class="stars">★★★★☆</span><span class="name mono">J. Petrov</span></div><p>Great fit on my 2x2 rack. Had to trim slightly for a 3x3 upright — not a big deal, just noting it.</p></div>
-    </div>
-
-    <div class="cta">
-      <div>
-        <div class="price">$22 / pair</div>
-      </div>
-      <div class="cta-actions">
-        <a href="../specs/osteo-trabecula-j-cup-insert-spec.pdf" class="btn btn-outline" download>Spec Sheet (PDF)</a>
-        <a href="../index.html#products" class="btn">View All Equipment</a>
-      </div>
-    </div>
-  </div>
-</main>
-
-</body>
-</html>
+/Info 9 0 R
+/Root 8 0 R
+/Size 12
+>>
+startxref
+3001
+%%EOF
